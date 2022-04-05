@@ -1,0 +1,34 @@
+.ProductDetail{
+    padding:  5rem 20rem 0 20rem;
+
+}
+.infoSection{
+    display: flex;
+}
+.leftSide{
+    flex: 6;
+}
+.bigImg{
+    height: 25rem;
+    width: 25rem;
+    object-fit: cover;
+}
+.ImgSm{
+    align-items: center;
+  justify-content: center;
+}
+.smImg{
+    object-fit: cover;
+    padding: 1rem;
+    height: 5rem;
+    width: 5rem;
+}
+.rightSide{
+    flex: 6;
+}
+
+.descImg{
+    height: 25rem;
+    width: 100%;
+    object-fit: cover;
+}

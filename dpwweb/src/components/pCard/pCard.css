@@ -1,0 +1,24 @@
+.pCard {
+  width: 15rem;
+  height: 18rem;
+  margin: 0 1em 0 2em;
+}
+.discount {
+  position: absolute;
+  margin-left: -1rem;
+  margin-top: 2rem;
+  font-size: 20px;
+  clip-path: polygon(95% 0, 100% 50%, 95% 100%, 0% 100%, 0 51%, 0% 0%);
+  background-color: rgb(255, 0, 0);
+
+box-shadow: 0px 10px 13px -7px #000000, 5px 3px 9px -5px rgba(0,0,0,0);
+}
+.pCard-img {
+  height: 15rem;
+  width: 100%;
+  object-fit: cover;
+}
+.pCard-body{
+    display: flex;
+    justify-content: space-between;
+}

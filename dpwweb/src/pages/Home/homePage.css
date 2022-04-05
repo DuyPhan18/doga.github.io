@@ -1,0 +1,36 @@
+.container{
+    padding: 0 10rem 0 10rem;
+}
+.topicName{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+}
+
+.bannerImg{
+    height: 13rem;
+    width: 100%;
+    object-fit: cover;
+}
+.quote{
+    font-family: 'Playfair Display', serif;
+    padding: 3rem 0 0 5rem;
+    font-size: 100px;
+    font-weight: 400;
+    position: absolute;
+}
+
+.quote2{
+    font-family: 'Playfair Display', serif;
+    padding: 2rem 0 0 24rem;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    font-weight: 400;
+    position: absolute;
+}
+.u{
+    font-family: 'PT Serif', serif;
+    font-size: 40px;
+    font-weight: 600;
+}

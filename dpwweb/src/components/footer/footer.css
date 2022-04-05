@@ -1,0 +1,36 @@
+.footer{
+ height: 15rem;
+ width: 100%;
+ background-image: url("../../../public/assets/img/ft1.jpg");  
+ object-fit: cover; 
+}
+.ftmenu{
+    display: flex;
+}
+.footerLeft{
+    flex: 4;
+    padding: 5rem 0 0 5rem ; 
+}
+.logoft{
+    
+    font-size: 35px;
+    font-weight: 1000;
+}
+.footerRight{
+    flex: 8;
+    padding: 5rem 0 0 5rem ; 
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.menuItem{
+    list-style: none;
+    text-decoration: none;
+}
+.copyRight{
+    flex: 12;
+    padding-top: 5rem;
+    text-align: center;
+}

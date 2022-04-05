@@ -1,0 +1,70 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+   
+    align-items: center;
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: rgba(243, 242, 242, 0.459);
+}
+.navbarLeft{
+    flex: 3;
+}
+.logo{
+    font-weight: 1000;
+    font-size: 28px;
+}
+.navbarCenter{
+   
+    flex: 5;
+}
+.searchBar{
+    display: flex;
+    border: 1px solid #DDD;
+  
+
+}
+.searchInput{
+    align-items: center;
+    justify-content: center;
+    width: 35rem;
+    height: 2rem;
+    border: none;
+    
+}
+ion-icon{
+   padding: 0 1rem 0 1rem ;
+   align-items: center;
+   margin: auto;
+   font-size: 20px;
+}
+.navbarRight{
+   
+    flex: 4;
+    
+}
+.navbarRightItem{
+    display: flex;
+    justify-content: flex-end;
+}
+.navbarIcon{
+    display: flex;
+   flex: 6;
+   margin: auto;
+   
+}
+.navbarIconItem{
+   
+}
+.access{
+    flex: 2;
+}
+.loginBtn{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(196, 194, 194);
+    flex: 6;
+    border: none;
+    padding: 0.5rem;
+    width: 5rem;
+    height: 2rem;
+}
