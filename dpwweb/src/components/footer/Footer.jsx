@@ -18,7 +18,7 @@ const Footer = () => {
             </div>
 
             <div className="copyRight">
-                Ⓒ2022 All right reserved. <strong>don gian | doga.</strong>
+                Ⓒ2022 All right reserved. <a href='/'><strong>don gian | doga.</strong></a>
             </div>
         </div>
     )
