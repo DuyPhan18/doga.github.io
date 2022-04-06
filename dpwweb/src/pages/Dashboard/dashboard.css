@@ -1,0 +1,9 @@
+.dashboard{
+    display: flex;
+}
+.sideBar{
+    flex: 2;
+}
+.content{
+    flex: 10;
+}

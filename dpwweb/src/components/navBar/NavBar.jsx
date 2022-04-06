@@ -1,10 +1,8 @@
 import React, { useState } from 'react'
 import { products } from '../../data'
-import SearchTable from '../searchTable/SearchTable';
 import "./navBar.css"
 const NavBar = () => {
     const [query, setQuery] = useState("");
-    const [filterData, setFilterData] = useState([]);
     // const search = (data) => {
     //     return data.filter((item) => item.name.toLowerCase().includes(query))
     // }
@@ -26,12 +24,12 @@ const NavBar = () => {
                             {/* <SearchTable data={search(products)}/> */}
                             <ul className='list'>
                                 {products.filter(item => item.name.toLowerCase().includes(query)).map((item) => (
-                                    <li key={item.id} className='listItem'><a href='/product-details/:id'>{item.name}</a></li>
+                                    <a href='/product-details/:id'> <li key={item.id} className='listItem'>{item.name}</li></a>
                                 ))}
 
                             </ul>
-                        </div>)}
-
+                        </div>
+                    )}
                 </div>
             </div>
             <div className="navbarRight">
@@ -43,6 +41,12 @@ const NavBar = () => {
                         <div className="navbarIconItem">
                             <ion-icon name="cart-outline"></ion-icon>
                         </div>
+                        <div className="navbarIconItem">
+                           <a href='/blog'><ion-icon name="document-text-outline"></ion-icon></a> 
+                        </div>
+                    </div>
+                    <div className="access">
+                        <a href='/dashboard' className='loginBtn'>Dashboard</a>
                     </div>
                     <div className="access">
                         <a href='/login' className='loginBtn'>login</a>

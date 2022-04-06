@@ -1,0 +1,21 @@
+.sidebar{
+    height: max-content;
+    width: 100%;
+    background-color: rgb(213, 212, 212);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.header{
+    font-size: 10px;
+    text-align: center;
+}
+.titleSB{
+}
+.sidebarItems{
+    padding-left: 1rem;
+
+}
+.sidebarItem{
+    margin-top: 1rem;
+
+}
