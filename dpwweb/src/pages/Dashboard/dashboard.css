@@ -3,7 +3,16 @@
 }
 .sideBar{
     flex: 2;
+    margin: 0.5rem;
+}
+.dashboardCon{
+     flex: 10;
 }
 .content{
-    flex: 10;
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+.charts{
+    display: flex;
 }

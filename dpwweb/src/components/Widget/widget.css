@@ -1,0 +1,53 @@
+.widget{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.2); 
+box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.2);
+    padding: 1rem;
+    border-radius: 5px;
+    height: 7rem;
+}
+.left, .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.titleWg{
+    font-weight: bold;
+    font-size: 15px;
+    color: gray;
+}
+.counterWg{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+}
+.linkWg{
+    color: red;
+    font-size: 14px;
+    text-decoration: underline;
+}
+.percentage{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+.positive{
+    color: green;
+}
+.positive ion-icon{
+    color: green;
+}
+.negative{
+    color: red;
+}
+.negative ion-icon{
+    color: red;
+}
+.rightIcon {
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(139, 72, 202);
+}
