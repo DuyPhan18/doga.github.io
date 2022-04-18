@@ -3,7 +3,7 @@
     justify-content: space-between;
     flex: 1;
     -webkit-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.2); 
-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.2);
     padding: 1rem;
     border-radius: 5px;
     height: 7rem;
